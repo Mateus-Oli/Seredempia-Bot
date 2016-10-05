@@ -1,0 +1,7 @@
+# Node build artifacts
+node_modules
+*.log
+
+#Local Development
+Driver
+*.bat

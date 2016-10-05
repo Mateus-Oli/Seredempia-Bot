@@ -1,0 +1,15 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "A bot application using Selenium",
+  "main": "index.js",
+  "keywords": [
+    "bot"
+  ],
+  "author": "Mateus Oliveira Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.6.2",
+    "selenium-webdriver": "^3.0.0-beta-3"
+  }
+}
