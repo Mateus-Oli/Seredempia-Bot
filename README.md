@@ -2,7 +2,7 @@
 
 ##Bot (Selenium + node.js) for Seredempia.herokuapp.com
 
-Este projeto tem como objetivo, a partir da criação de um bot que ira acessar e utilizar o site 'Seredempia.herokuapp.com' (desenvolvido por mim), adiquirir conhecimentos relacionados ao desenvolvimento de Bots, o projeto foi desenvolvido utilizando a linguagem Javascript e utilizando as ferramentas:
+Este projeto tem como objetivo, a partir da criação de um bot que ira acessar e utilizar o site 'Seredempia.herokuapp.com' (desenvolvido por mim), adquirir conhecimentos relacionados ao desenvolvimento de Bots, o projeto foi desenvolvido utilizando a linguagem Javascript e utilizando as ferramentas:
 
     • Node.js 4.5.0;
 
