@@ -96,7 +96,7 @@ driver.get(page + 'logIn?origin=Transporte').then(function(){
 
     //Blocking Student
     driver.findElement(By.name(student)).click();
-    driver.findElement(By.name('confirmar')).click();
+    driver.findElement(By.name('comprar')).click();
     driver.findElement(By.name('logout')).click();
     driver.wait(until.titleIs('Seredempia')).then(function(){
 

@@ -9,7 +9,6 @@
   "author": "Mateus Oliveira Carvalho",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^4.6.2",
     "selenium-webdriver": "^3.0.0-beta-3"
   }
 }
