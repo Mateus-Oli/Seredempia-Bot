@@ -20,16 +20,16 @@ Este projeto tem como objetivo, a partir da criação de um bot que ira acessar 
 
 ### Pré-Instalação
 
-Ferramentas necessarias para o funcionamento do projeto. Para instalar o Node.js e o Chrome Driver é necessario entrar em seus sites e fazer o download dos arquivos. Também é necessário inserir a pasta onde esta presente o arquivo do chrome driver na variavel de sistema ```PATH``` do sistema operacional utilizado:
+Ferramentas necessarias para o funcionamento do projeto. Para instalar o Node.js e o Chrome Driver é necessario entrar em seus sites e fazer o download dos arquivos. Também é necessário inserir a pasta onde esta presente o arquivo do chrome driver na variavel de sistema `PATH` do sistema operacional utilizado:
 
   * [Node.js](https://nodejs.org/en/);
   * [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/).
 
 ### Instalações de dependencias
 
-Dependencias utilizadas pelo projeto. o comando a seguir instala as dependencias descritas dentro do arquivo ```package.json```:
+Dependencias utilizadas pelo projeto. o comando a seguir instala as dependencias descritas dentro do arquivo `package.json`:
 
-* ```npm install```;
+* `npm install`;
 
 ## Inicialização
 
@@ -41,7 +41,7 @@ npm start
 
 ## Funcionamento
 
-Com o desenvolvimento desta aplicação foi criado um arquivo ```index.js``` e ```navigatorService.js``` que, utilizando o node_module selenium-webdriver junto ao chromedriver:
+Com o desenvolvimento desta aplicação foi criado um arquivo `index.js` e `navigatorService.js` que, utilizando o node_module selenium-webdriver junto ao chromedriver:
 
 1. Entra em #/Estudante;
 2. Digita um cpf;
