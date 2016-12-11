@@ -1,20 +1,47 @@
-# Learning_BOT_Mateus
+# Seredempia
 
-##Bot (Selenium + node.js) for Seredempia.herokuapp.com
+## Bot (Selenium + node.js) for Seredempia.herokuapp.com
 
-Este projeto tem como objetivo, a partir da criação de um bot que ira acessar e utilizar o site 'Seredempia.herokuapp.com' (desenvolvido por mim), adquirir conhecimentos relacionados ao desenvolvimento de Bots, o projeto foi desenvolvido utilizando a linguagem Javascript e utilizando as ferramentas:
+Este projeto tem como objetivo, a partir da criação de um bot que ira acessar e utilizar o site 'Seredempia.herokuapp.com' (desenvolvido por mim), fazer o teste das funcionalidades de tal projeto, o projeto foi desenvolvido utilizando a linguagem Javascript.
 
-    • Node.js 4.5.0;
+## Ferramentas
 
-    • NPM 2.15.9;
+* [Node.js 4.5.0](https://nodejs.org/en/);
 
-    • Selenium (versão para node) 3.0.0-beta-3;
+* [NPM 2.15.9](https://www.npmjs.com/);
 
-    • Chrome WebDriver 2.24;
+* [Selenium (versão para node) 3.0.0-beta-3](http://docs.seleniumhq.org/);
 
-    • Atom 1.12.0.
+* [Chrome WebDriver 2.24](https://sites.google.com/a/chromium.org/chromedriver/);
 
-Com o desenvolvimento desta aplicação foi criado um arquivo "index.js" que, utilizando o node_module selenium-webdriver junto ao chromedriver:
+* [Atom 1.12.0](https://atom.io/).
+
+## Instalação
+
+### Pré-Instalação
+
+Ferramentas necessarias para o funcionamento do projeto. Para instalar o Node.js e o Chrome Driver é necessario entrar em seus sites e fazer o download dos arquivos. Também é necessário inserir a pasta onde esta presente o arquivo do chrome driver na variavel de sistema ```PATH``` do sistema operacional utilizado:
+
+  * [Node.js](https://nodejs.org/en/);
+  * [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/).
+
+### Instalações de dependencias
+
+Dependencias utilizadas pelo projeto. o comando a seguir instala as dependencias descritas dentro do arquivo ```package.json```:
+
+* ```npm install```;
+
+## Inicialização
+
+Para inicializar o projeto basta entrar na pasta do projeto a partir do console do sistema operacional e digitar o seguinte comando:
+
+```bash
+npm start
+```
+
+## Funcionamento
+
+Com o desenvolvimento desta aplicação foi criado um arquivo ```index.js``` e ```navigatorService.js``` que, utilizando o node_module selenium-webdriver junto ao chromedriver:
 
 1. Entra em #/Estudante;
 2. Digita um cpf;
